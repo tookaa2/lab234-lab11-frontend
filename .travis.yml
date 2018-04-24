@@ -13,9 +13,9 @@ install:
 - npm run ng-deploy
 - ls -l
 script:
-- docker build -t tookaa2/se234-lab10-client .
-- docker push tookaa2/se234-lab10-client
-- docker pull tookaa2/se234-lab10-client
+- docker build -t tookaa2/se234-lab11-client .
+- docker push tookaa2/se234-lab11-client
+- docker pull tookaa2/se234-lab11-client
 service: docker
 env:
   global:
