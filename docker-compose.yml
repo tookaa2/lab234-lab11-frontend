@@ -4,6 +4,10 @@ services:
     image: dto80/234-lab11
     ports:
       - "8084:8080"
+    volumes:
+     - type: bind
+       source: ./xxx
+       target: /data
   frontend:
     image: tookaa2/se234-lab11-client:latest
     ports:
